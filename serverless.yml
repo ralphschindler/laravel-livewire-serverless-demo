@@ -25,6 +25,7 @@ provider:
       APP_STORAGE: /tmp
       # Serve static assets via CloudFront
       ASSET_URL: ${self:custom.asset_url}
+      LIVEWIRE_ASSET_URL: ${self:custom.asset_url}
       MIX_ASSET_URL: ${self:custom.asset_url}
       LOG_CHANNEL: stderr
       SESSION_DRIVER: cookie
