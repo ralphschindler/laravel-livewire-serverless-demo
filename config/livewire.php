@@ -42,7 +42,7 @@ return [
     |
     */
 
-    'asset_url'  => env('LIVEWIRE_ASSET_URL', null), // env('APP_URL', null),
+    'asset_url'  => env('APP_URL', null), // really should be env('LIVEWIRE_ASSET_URL', null), // 
 
     /*
     |--------------------------------------------------------------------------
